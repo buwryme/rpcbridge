@@ -1,0 +1,14 @@
+[Unit]
+Description=Discord RPC to OAuth2 presence bridge
+Documentation=https://github.com/buwryme/rpcbridge
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+ExecStart=%h/.local/bin/rpcbridge run
+Restart=on-failure
+RestartSec=3
+Environment=RUST_LOG=rpcbridge=info
+
+[Install]
+WantedBy=default.target
