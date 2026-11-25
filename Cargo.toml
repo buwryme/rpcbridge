@@ -5,7 +5,7 @@ edition = "2024"
 rust-version = "1.85"
 license = "GPL-3.0-or-later"
 description = "Bridge Discord RPC IPC clients to OAuth2 Social SDK presence"
-repository = "https://github.com/buwryme/rpcbridge"
+repository = "https://git.buwryy.net/buwryy/rpcbridge"
 default-run = "rpcbridge"
 
 [dependencies]

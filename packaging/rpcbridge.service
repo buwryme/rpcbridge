@@ -1,6 +1,6 @@
 [Unit]
 Description=Discord RPC to OAuth2 presence bridge
-Documentation=https://github.com/buwryme/rpcbridge
+Documentation=https://git.buwryy.net/buwryy/rpcbridge
 After=network-online.target
 Wants=network-online.target
 
